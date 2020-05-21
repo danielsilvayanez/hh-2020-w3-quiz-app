@@ -12,16 +12,25 @@
 }
 
 .card__hints {
-  border-style: dotted;
   display: flex;
   justify-content: space-evenly;
   padding: 0; /*warum???*/
 }
 
 .card__hints > li {
-  border: 2px solid steelblue;
+  border: 2px solid hotpink;
   padding: 2px;
+  background-color: steelblue;
+  color: white;
 }
 
 .card__button {
+  background-color: steelblue;
+  color: white;
+  border-radius: 8px;
+}
+
+.card__button:hover {
+  background-color: #4caf50;
+  color: white;
 }

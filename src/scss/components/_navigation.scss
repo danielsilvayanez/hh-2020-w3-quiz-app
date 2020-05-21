@@ -2,18 +2,22 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2px;
+  position: sticky;
 }
 
 .navigation__link {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #333;
   color: white;
   text-decoration: none;
-  font-size: 1.4em;
+  background-color: steelblue;
 }
 
 .navigation__link--active {
   background: hotpink;
+}
+
+.navigation__link > img {
+  height: 48px;
 }
