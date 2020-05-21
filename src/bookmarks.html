@@ -1,11 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="scss/styles.scss" />
+  </head>
+  <body class="main-grid">
+    <header class="main-header" id="quizapp">Quiz App</header>
+    <main class="card__container scrollable">
+      <!-- Card element starts -->
+      <section class="card">
+        <h1>Question Hello</h1>
+        <p class="card__question">
+          Wann war die französische Revolution?
+        </p>
+        <div class="flex-center">
+          <button class="card__button">Show Answer</button>
+        </div>
+        <ul class="noneliststyle card__hints">
+          <li>Napoleon</li>
+          <li>help2</li>
+          <li>help3</li>
+          <li>help4</li>
+        </ul>
+      </section>
+      <!-- Card element end -->
 
-</body>
+      <!-- Card element starts -->
+      <section class="card">
+        <h1>Question</h1>
+        <p class="card__question">
+          Wann war die französische Revolution?
+        </p>
+        <div class="flex-center">
+          <button class="card__button">Show Answer</button>
+        </div>
+        <ul class="noneliststyle card__hints">
+          <li>Napoleon</li>
+          <li>help2</li>
+          <li>help3</li>
+          <li>help4</li>
+        </ul>
+      </section>
+      <!-- Card element end -->
+
+      <!-- Card element starts -->
+      <section class="card">
+        <h1>Question</h1>
+        <p class="card__question">
+          Wann war die französische Revolution?
+        </p>
+        <div class="flex-center">
+          <button class="card__button">Show Answer</button>
+        </div>
+        <ul class="noneliststyle card__hints">
+          <li>Napoleon</li>
+          <li>help2</li>
+          <li>help3</li>
+          <li>help4</li>
+        </ul>
+      </section>
+      <!-- Card element end -->
+    </main>
+    <nav class="navigation">
+      <a class="navigation__link" href="/"
+        ><img src="img/house.png" alt="home"
+      /></a>
+      <a
+        class="navigation__link navigation__link--active"
+        href="/bookmarks.html"
+        ><img src="img/bookmark-ribbon.png" alt="bookmarks"
+      /></a>
+      <a class="navigation__link" href="/create.html"
+        ><img src="img/list.png" alt="create question"
+      /></a>
+      <a class="navigation__link" href="/profile.html"
+        ><img src="img/administrator-male.png" alt="create profile"
+      /></a>
+    </nav>
+  </body>
 </html>
