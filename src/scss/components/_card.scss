@@ -7,6 +7,21 @@
 .card__container {
   display: grid;
   gap: 20px;
-  overflow: scroll;
   padding: 20px;
+  overflow: scroll;
+}
+
+.card__hints {
+  border-style: dotted;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0; /*warum???*/
+}
+
+.card__hints > li {
+  border: 2px solid steelblue;
+  padding: 2px;
+}
+
+.card__button {
 }
